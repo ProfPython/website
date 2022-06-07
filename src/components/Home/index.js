@@ -16,7 +16,7 @@ const Home = () => {
         }, 4000)
     }, [])
 
-    return (
+    return ( 
     
         <div className="container home-page">
             <div className="text-zone">
