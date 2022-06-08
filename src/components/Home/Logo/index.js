@@ -1,2 +1,2 @@
-import "./indes.scss"
+import "./index.scss"
 
