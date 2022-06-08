@@ -59,7 +59,7 @@ const Logo = () => {
         <g
           className="svg-container"
           transform="translate(0 457) scale(.1 -.1)"
-          fill="#fff"
+          fill="none"
         >
           <path
             ref={outlineLogoRef}
