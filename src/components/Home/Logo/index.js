@@ -18,7 +18,7 @@ const Logo = () => {
         duration: 1,
         opacity: 1,
       })
-      .fromTo(outlineLogoRef.current, 
+      .fromTo("#path", 
         {
             drawSVG: "0 5%"
         }, 
@@ -49,11 +49,11 @@ const Logo = () => {
         alt="JavaScript,  Developer"
       />
 
-<svg
+      <svg
         width="559pt"
         height="897pt"
         version="1.0"
-        viewBox="0 0 559 897"
+        viewBox="0 0 95.81 65.67"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g
@@ -61,9 +61,9 @@ const Logo = () => {
           transform="translate(0 457) scale(.1 -.1)"
           fill="none"
         >
-          <path
-            ref={outlineLogoRef}
-            d="M 50.94 15.19 L 37.17 61.88 H 25.91 L 6.76 0.38 H 18.63 L 31.54 47.07 h 0.17 L 45.4 0.38 H 56.92 L 70.61 47.07 h 0.17 L 83.78 0.38 H 95.3 L 76.15 61.88 H 64.89 L 51.12 15.19 Z"/>
+        <path
+          ref={outlineLogoRef}
+          d="M 50.94 15.19 L 37.17 61.88 H 25.91 L 6.76 0.38 H 18.63 L 31.54 47.07 h 0.17 L 45.4 0.38 H 56.92 L 70.61 47.07 h 0.17 L 83.78 0.38 H 95.3 L 76.15 61.88 H 64.89 L 51.12 15.19 Z"/>
         </g>
       </svg>
     </div>
