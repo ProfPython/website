@@ -41,8 +41,8 @@ const Home = () => {
                 <h2>Software Engineer / JavaScript Expert / Tech Ethusiast</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
-            <Logo />
         </div>
+        <Logo />
         <Loader type='pacman' />
         </>
         

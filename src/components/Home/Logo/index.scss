@@ -2,7 +2,7 @@
     z-index: 0;
     width: 500px;
     height: 650px;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     top: 20;
     right: 25%;
@@ -10,12 +10,12 @@
     left: auto;
     margin: auto;
   
-    svg {
-      width: 100%;
-      height: auto;
-      bottom: 0;
-      transform: rotateZ(30deg) !important;
-    }
+    // svg {
+    //   width: 100%;
+    //   height: auto;
+    //   bottom: 0;
+    //   transform: rotateZ(30deg) !important;
+    // }
   
     .solid-logo {
       position: absolute;
@@ -28,10 +28,27 @@
       opacity: 0;
       transform: rotateZ(30deg) !important;
       z-index: 1;
+      animation: bounce 3s ease 3s;
+      animation-delay: 1.4s;
+      animation-fill-mode: forwards; 
+    }
+
+   
+    @keyframes bounce {
+      0% {
+        opacity: 0;
+        transform: translateX(2000px);
+      }
+      60% {
+        opacity: 1;
+        transform: translateX(-30px);
+      }
+      80% { transform: translateX(10px); }
+      100% { opacity: 1; transform: translateX(0); }
     }
   }
   
-  .svg-container {
-    stroke: #ffa500;
-    stroke-width: 1;
-  }
+  // .svg-container {
+  //   stroke: #ffa500;
+  //   stroke-width: 1;
+  // }
