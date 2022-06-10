@@ -4,6 +4,8 @@ import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from "@forta
 import { useEffect, useState } from "react"
 import AnimatedLetters from "../AnimatedLetters"
 import "./index.scss"
+import Sidebar from '../sidebar/';
+import Layout from '../Layout/';
 import Loader from 'react-loaders'
 
 const About = () => {
@@ -16,6 +18,8 @@ const About = () => {
 
     return (
         <>
+            <Sidebar />
+            <Layout />
             <div className="container about-page">
                 <div className="text-zone">
                     <h1>

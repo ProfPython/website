@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import Sidebar from '../sidebar/';
+import Layout from '../Layout/';
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
@@ -36,6 +38,8 @@ const Contact = () => {
     }
     return(
         <>
+        <Sidebar />
+        <Layout />
         <div className='container contact-page'>
             <div className='text-zone'>
                 <h1>

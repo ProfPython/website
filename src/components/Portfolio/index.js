@@ -1,5 +1,7 @@
 import './index.scss'
 import React, { useEffect, useState } from 'react';
+import Sidebar from '../sidebar/';
+import Layout from '../Layout/';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import portfolioData from "../../Data/portfolio.json"
@@ -43,6 +45,8 @@ const Portfolio = () => {
 
     return(
         <>
+            <Sidebar />
+            <Layout />
             <div className='container portfolio-page'>
                 <h1 className='page-title'>
                     <AnimatedLetters 
