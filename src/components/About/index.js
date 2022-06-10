@@ -12,7 +12,7 @@ const About = () => {
         setTimeout(()=>{
             setLetterClass('text-animate-hover')
         }, 3000)
-    }, [1,2,3])
+    }, [])
 
     return (
         <>

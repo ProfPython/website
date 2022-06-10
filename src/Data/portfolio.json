@@ -1,0 +1,30 @@
+{
+    "portfolio":[
+        {
+            "cover": "/trueWeather/trueweather4image.png",
+            "title": "trueWeather",
+            "description":"A weather forecast application created with MongoDB, ExpressJS, NodeJS, Vanilla Javascript, HTML, CSS and Jquery.",
+            "url":"https://github.com/ProfPython/trueWeatherWebApp"
+
+
+        },
+
+        {
+            "cover": "/domination/dom5.png",
+            "title": "Game of Focus",
+            "description":"A 4-player (AI & Human) board game created using Java.",
+            "url":"https://github.com/ProfPython/GameOfFocus"
+
+
+        },
+
+        {
+            "cover": "/treasureHunt/hiddenTreasure5.png",
+            "title": "Treasure Hunt",
+            "description":"A two-player treasure hunt board game created using Java.",
+            "url":"https://github.com/ProfPython/treasurehunt"
+
+
+        }
+    ]
+}
