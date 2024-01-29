@@ -52,3 +52,15 @@
   //   stroke: #ffa500;
   //   stroke-width: 1;
   // }
+  @media screen and (max-width: 1200px) { 
+      .logo-container{
+        position: relative;
+        width: 100px;
+        height: auto;
+        top: 50px;
+        right: 0;
+        box-sizing: border-box;
+        margin: auto;
+        left: 0;
+      }
+    }

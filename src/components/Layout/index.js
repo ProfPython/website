@@ -4,8 +4,8 @@ import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
     return(
-        <div className="App">
-            <Sidebar />
+        //<div className="App">
+           // <Sidebar />
             <div className='page'>
                 <span className='tags top-tags'>&lt;body&gt;</span>
 
@@ -17,7 +17,7 @@ const Layout = () => {
                 </span>
 
             </div>
-        </div>
+        //</div>
     )
 }
 

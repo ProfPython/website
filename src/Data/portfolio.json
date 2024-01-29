@@ -3,7 +3,7 @@
 {
     "portfolio":[
         {
-            "cover": "/trueWeather/trueweather4image.png",
+            "cover": "/trueWeather/trueweather4image1.png",
             "title": "trueWeather",
             "description":"A weather forecast application created with MongoDB, ExpressJS, NodeJS, Vanilla Javascript, HTML, CSS and Jquery.",
             "url":"https://github.com/ProfPython/trueWeatherWebApp"
@@ -12,7 +12,7 @@
         },
 
         {
-            "cover": "/domination/dom5.png",
+            "cover": "/domination/dom51.png",
             "title": "Game of Focus",
             "description":"A 4-player (AI & Human) board game created using Java.",
             "url":"https://github.com/ProfPython/GameOfFocus"
